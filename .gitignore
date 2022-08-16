@@ -1,0 +1,14 @@
+# python
+*.pyc
+
+# venv
+venv
+
+# tests
+benthomasson/tests/output
+benthomasson/eda/tests/output
+.pytest_cache/
+
+# Ide's
+.vscode
+.idea
