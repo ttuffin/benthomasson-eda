@@ -1,0 +1,10 @@
+---
+version: "3"
+
+services:
+  webhook_client:
+    image: eda-webhook_client
+    build:
+      context: .
+    network_mode: host
+    command: python /scripts/webhook_client.py
